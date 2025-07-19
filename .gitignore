@@ -1,0 +1,32 @@
+# 🔧 Node & React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+*.log
+
+# ⚙️ Python & Flask
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/.env
+
+# 📦 Ollama & LangChain
+.ollama/
+*.bin
+*.cache/
+
+# 📄 OS & Editor Junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# 🚧 Misc
+.env
+.env.local
+coverage/
+dist/
+*.sqlite3
