@@ -25,10 +25,26 @@ An intelligent agent that breaks down high-level goals into actionable subtasks 
 ---
 
 ## 📦 Folder Structure
-goal-agent/ ├── backend/ │   ├── app.py │   ├── agent_logic.py │   └── streaming_callback.py ├── frontend/ │   ├── src/ │   │   ├── App.js │   │   ├── GoalInput.js │   │   └── index.js │   └── public/ ├── .gitignore ├── README.md
-
-
----
+goal-agent/ 
+├── backend/ 
+  │
+  ├── app.py │   
+  ├── agent_logic.py 
+  │   └── streaming_callback.py 
+├── frontend/ 
+  │   
+  ├── src/ 
+  │   
+  │   
+  ├── App.js 
+  │   
+  │   
+  ├── GoalInput.js 
+  │   
+  │   └── index.js 
+  │   └── public/ 
+├── .gitignore 
+├── README.md
 
 ## 🧪 Running Locally
 
@@ -36,7 +52,6 @@ goal-agent/ ├── backend/ │   ├── app.py │   ├── agent_logi
 ```bash
 cd backend
 python app.py
-
 
 ### 2. Start React frontend
 
