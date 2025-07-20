@@ -1,0 +1,13 @@
+Emergency Scenarios:
+- Fire outbreak in residential area
+- Medical emergency: unconscious person
+- Suspicious activity near school zone
+- Elderly person lost in public park
+- Vehicle breakdown on highway at night
+
+Response Guidelines:
+- Alert nearest emergency contact
+- Share GPS location with responders
+- Trigger loud alarm if needed
+- Notify local authorities via WhatsApp
+- Log incident details for future review

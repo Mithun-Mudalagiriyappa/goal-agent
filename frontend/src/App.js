@@ -26,21 +26,19 @@ function App() {
 
         buffer += decoder.decode(value);
 
-        // Split buffer into words
-        const words = buffer.split(/\s+/);
-        for (let i = 0; i < words.length - 1; i++) {
-          await new Promise((resolve) => setTimeout(resolve, 50)); // delay for typing effect
-          setTypingText((prev) => prev + words[i] + ' ');
+        const lines = buffer.split(/\n+/);
+        for (let i = 0; i < lines.length - 1; i++) {
+          await new Promise((resolve) => setTimeout(resolve, 50));
+          setTypingText((prev) => prev + lines[i] + '\n');
         }
 
-        buffer = words[words.length - 1]; // keep last partial word
+        buffer = lines[lines.length - 1];
       }
 
-      // Add final word
       setTypingText((prev) => prev + buffer);
     } catch (err) {
       console.error('Streaming error:', err);
-      setTypingText('⚠️ Failed to generate response.');
+      setTypingText('Failed to generate response.');
     }
 
     setLoading(false);
