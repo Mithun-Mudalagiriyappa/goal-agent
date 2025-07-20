@@ -114,3 +114,4 @@ This input ensures all tools are used and the agent responds within ~3 minutes.
 ---
 ## Author
 Built by Mithun Mudalagiriyappa — a methodical and resourceful developer focused on building impactful AI solutions.
+GitHub: [@Mithun-Mudalagiriyappa](https://github.com/Mithun-Mudalagiriyappa)
